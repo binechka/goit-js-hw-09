@@ -16,3 +16,57 @@ img {
   display: block;
   max-width: 100%;
 }
+
+.timer {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  background-color: darksalmon;
+  color: saddlebrown;
+  gap: 20px;
+  width: 25vw;
+  text-align: center;
+  justify-content: center;
+
+  box-shadow: -4px -4px 4px rgba(171, 129, 108, 0.15), 4px 4px 4px rgba(171, 129, 108, 0.15);
+  border-radius: 150px;
+
+}
+
+.field {
+  font-family: Montserrat;
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  color: #fafafa;
+  border-color: darksalmon;
+}
+
+#datetime-picker {
+  font-size: 16px;
+  font-family: Montserrat;
+  height: 40px;
+  background: ghostwhite;
+  border-radius: 25px;
+  text-align: center;
+}
+
+.button {
+  background: #AB816C;
+  border-radius: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+  color: #fafafa;
+  border-color: #AB816C;
+  cursor: pointer;
+  font-family: Montserrat;
+  font-size: 16px;
+}
+
+/* .button:hover {
+  background-color: bisque;
+  color: #AB816C;
+} */
