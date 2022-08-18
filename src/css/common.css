@@ -61,9 +61,14 @@ img {
   padding-right: 40px;
   color: #fafafa;
   border-color: #AB816C;
-  cursor: pointer;
   font-family: Montserrat;
   font-size: 16px;
+}
+
+.button:disabled {
+  background-color: antiquewhite;
+  color: brown;
+
 }
 
 /* .button:hover {

@@ -11,6 +11,7 @@ const dataMinutes = document.querySelector("span[data-minutes]")
 const dataSeconds = document.querySelector("span[data-seconds]")
 
 
+
  startBtn.disabled = true
 const options = {
   enableTime: true,
@@ -19,7 +20,7 @@ const options = {
   minuteIncrement: 1,
   onClose(selectedDates) {
       
-      if ((selectedDates[0].getTime() - options.defaultDate.getTime())<0) {
+      if (selectedDates[0].getTime() < options.defaultDate.getTime()) {
           window.alert("Please choose a date in the future")    
       }
       else {
